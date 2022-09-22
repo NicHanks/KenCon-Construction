@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html len="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Me</title>
+</head>
+<body>
+    <h1>About Me</h1>
+    <img alt="Image of me!" src="C:\Users\nicha\OneDrive\Pictures\Me\IMG_4968.HEIC" >
+    <h2>Nick Hanks</h2>
+    <h2>Nickle pickle</h2>
+    <p>I came from a lovely little town called Logan. 
+        It was great, it had all four seasons in the 
+        year, but it was missing one thing,
+        and that was BYUI... 
+        I am headed for a career in tech, 
+        and love to play around with tech as a hobby.
+        I'm single and used to do construction.
+        I am pursuing a BS degree. </p>
+        <p>I am interested in starting my own free lancing
+        business in web development. The advantages of 
+        tech is that tech businesses are more scalable 
+        than other businesses, have a lower start up cost
+        than other buisness, and are also way more exciting 
+        than other businesses! </p>
+        <p>I have been a member of the church for 13 years
+        and have many favorite scriptures, one of which 
+        is Helaman 5:12 that says to build upon a strong 
+        foundation.
+    </p>
+</body>
+</html>
