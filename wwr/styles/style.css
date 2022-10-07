@@ -5,6 +5,7 @@ body div {
 nav a {
     text-align: center;
     background-color: white;
+    text-decoration-style: none;
     color: black;
     text-decoration: none;
     padding: 15px;
