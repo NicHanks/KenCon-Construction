@@ -1,0 +1,40 @@
+h1 {
+    color: coral;
+    text-align: center;
+}
+nav, footer {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto; 
+}
+main p {
+    width: 80%;
+    margin: 50 auto;
+    text-align: center;
+}
+p {
+    width: 80%;
+}
+a {
+    font-size: 1.5em;
+    color: rgb(205, 79, 33);
+}
+footer p {
+    font-size: 20px;
+    margin: 0 auto;
+}
+a:hover {
+    background-color: aliceblue;
+    color: steelblue; 
+    padding: 10px;
+    border: 50px;
+}
+* {
+    border: 2px solid rgb(115, 115, 238, .5);
+}
