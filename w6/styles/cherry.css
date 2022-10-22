@@ -1,0 +1,21 @@
+body {
+    width: 80%;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+h3 {
+    text-decoration: red;
+    grid-column: 2/3;
+    grid-template-rows: 2/3;
+
+}
+.make_gray {
+    background-color: gray;
+    grid-column: 2/3;
+    z-index: -1;
+}
+img {
+    grid-column: 1/2;
+}
