@@ -15,7 +15,7 @@ body div {
     margin: 0 auto;
 }
 nav {
-    background-color: yellow;
+    background-color: rgb(255, 225, 1);
     display: flex;
     justify-content: space-around;
 }
@@ -26,15 +26,14 @@ body div {
 }
 
 nav a {
-    text-align: center;
     font-size: 30px;
     align-items: center;
+    text-decoration: none;
     color: black;
     padding: 35px;
 }
 nav a:hover {
     background-color: white;
-    color: black;
 }
 .logo {
     width: 100%;
@@ -60,7 +59,7 @@ nav a:hover {
 }
 #hero-img {
     width: 100%;
-    display: block;
+    /*display: block;*/
 }
 
 #hero-msg {
@@ -72,7 +71,7 @@ nav a:hover {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
-    color: white;
+    color: silver;
     text-align: center;
     font-family: 'Inter Tight', Courier, monospace;
 }
@@ -80,7 +79,7 @@ nav a:hover {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
-    color: white;
+    color: rgb(144, 246, 255);
     text-align: center;
     font-family: 'Inter Tight', Courier, monospace;
 }
@@ -95,14 +94,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.card-img, .mountains {
-    width: 100%;
-}
-.card-img {
-    border: 10px solid #d9c2a3;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-}
+
 .mountains {
     grid-column: 2/7;
     grid-row: 5/8;
@@ -139,10 +131,10 @@ header {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    background-color: rgb(255, 213, 0);
+
 }
-.join {
-    background-color: rgb(185, 185, 185);
-}
+
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
@@ -154,6 +146,14 @@ header {
 .rapids-card {
     grid-column: 8/10;
     grid-row: 2/3;
+}
+.card-img, .mountains {
+    width: 100%;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .card-img:hover {
     opacity: .6;
