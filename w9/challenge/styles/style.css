@@ -1,0 +1,28 @@
+html { 
+    background-color: black;
+}
+body {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: steelblue; 
+    color: white; 
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.content1 {
+    columns: 1/2;
+    text-align: center;
+}
+.content2 {
+    columns: 2/3;
+    text-align: center;
+}
+.content3 {
+    columns: 3/4;
+    text-align: center;
+}

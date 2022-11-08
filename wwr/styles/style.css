@@ -8,9 +8,19 @@
 }
 /*how to use :root
 font: root(--heading-font);*/
-body div/*supposed to be a div?*/ {
+body {
     max-width: 1600px;
-    margin: 0 auto;
+    background-color: #fcfbfb;
+    text-align: center; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter Tight", "Source Sans-Pro", Sans-serif; 
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-family: "Inter Tight", "Source Sans-Pro", Sans-serif;
 }
 nav {
     background-color: rgb(255, 225, 1);
@@ -19,16 +29,16 @@ nav {
 }
 nav a {
     font-size: 30px;
-    align-items: center;
     text-decoration: none;
     color: black;
-    padding: 35px;
+    padding: 60px;
 }
 nav a:hover {
     background-color: white;
 }
 .logo {
     width: 100%;
+    background: black;
 }
 .icon {
     padding-top: 10px;
@@ -81,37 +91,11 @@ nav a:hover {
 #background {
     height: 725px;
 }
-.home-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    /*is there supposed to be a template rows? */
-}
-.mountains {
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
-}
 .home-title {
     color: black;
     font-family: "Inter Tight", "Source Sans-Pro", Sans-serif;
     font-size: 2em;
     margin-top: 10px;
-}
-h4 {
-    color: black;
-}
-body {
-    background-color: #fcfbfb;
-    text-align: center; 
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
-    font-family: "Inter Tight", "Source Sans-Pro", Sans-serif; 
-}
-header {
-    display: grid;
-    grid-template-columns: 150px auto;
-    font-family: "Inter Tight", "Source Sans-Pro", Sans-serif;
 }
 .book, .join { /*(Think there's suposed to be a comma)*/
     background-color: white;
@@ -122,9 +106,12 @@ header {
     margin-top: 50px;
     border-radius: 5px;
     background-color: rgb(255, 213, 0);
-
 }
-
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    /*is there supposed to be a template rows? */
+}
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
@@ -137,9 +124,6 @@ header {
     grid-column: 8/10;
     grid-row: 2/3;
 }
-.card-img, .mountains {
-    width: 100%;
-}
 .card-img {
     border: 10px solid #d9c2a3;
     transition: transform .5s;
@@ -148,6 +132,11 @@ header {
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
+}
+.mountains {
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .book:hover {
     background-color: lightblue;
@@ -203,10 +192,27 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
-/* * {
-    border: 2px solid black;
-}*/
 
+
+
+/**********************  facts page  *********************************************/
+
+
+
+.factsgrid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.bighorn {
+    grid-column: 1/5;
+    padding: 10px;
+}
+.bighornfact {
+    grid-column: 5/10;
+    padding: 10px;
+    align-items: left;
+}
+.tent
 
 
 
