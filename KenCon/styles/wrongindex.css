@@ -1,0 +1,128 @@
+
+/*Quattrocento+Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&family=Quattrocento+Sans&family=Source+Sans+Pro&display=swap');
+
+
+body {
+    max-width: 1600px;
+}
+/* hero image */
+.homepage_img {
+    background-image: none;
+    z-index: -1;
+    background-image: url('dark_image_cranes.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.mainimgtext {
+    z-index: 1;
+    text-align: center;
+    }
+/* dropdown (for words) - container */
+.dropdowns {
+    overflow: hidden;
+}
+/* Links inside the dropdown (don't need) */
+.dropdown a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+/* The nav dropdown container */
+.navdropdown {
+    float: left;
+    overflow: hidden;
+  }
+/* The tool dropdown container */
+.tooldropdown {
+    float: right;
+    overflow: hidden;
+  }
+/* nav button */
+.navbutton {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+/* tool button */
+.toolbutton {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+/* Add a red background color to navbar links on hover */
+.dropdown a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+/* navdropdown content (hidden by default) */
+.navdropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+/* Links inside the dropdown */
+.navdropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+/* tooldropdown content (hidden by default) (it's also gonna be a forum)*/
+.tooldropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+/* Links inside the dropdown */
+.tooldropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+/* Add a grey background color to dropdown links on hover */
+.navdropdown-content a:hover, .tooldropdown-content a:hover {
+    background-color: #ddd;
+  }
+/* Show the navdropdown menu on hover */
+.navdropdown:hover .navdropdown-content {
+    display: block;
+  }
+/* Show the tooldropdown menu on hover */
+.tooldropdown:hover .tooldropdown-content {
+    display: block;
+  }
+
+
+
+  /***************** main *******************/
+
+.main {
+    max-width: 500px;
+    margin: auto;
+}
