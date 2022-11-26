@@ -1,38 +1,32 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
-/*Quattrocento*/
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&family=Quattrocento+Sans&family=Source+Sans+Pro&display=swap');
-/*Roboto*/
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&family=Quattrocento+Sans&family=Source+Sans+Pro&display=swap');
+
+/*Quattrocento, Roboto, Source sans-pro */
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@700&family=Roboto&family=Source+Sans+Pro&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #E63946;
-  --secondary-color: #F1FAEE;
-  --accent1-color: #a8dadc;
-  --accent2-color: #457B9D;
+  --primary-color: yellow;
+  --secondary-color: orange;
+  --accent1-color: lightblue;
+  --accent2-color: steelblue;
   /*fourth-Prusioan Blue #1D3557 */
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: quattrocento, sans-serif;
+  --paragraph-font: roboto, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #457B9D;  /* headlines on a white background */ 
-  --headline-color-on-color: #F1FAEE; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #457B9D; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #F1FAEE; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #457B9D  ;
-  --nav-link-color: #457B9D;
-  --nav-background-color: #D4AC0D;
+  --headline-color-on-white: orange;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: yellow; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: steelblue;
+  --nav-link-color: black;
+  --nav-background-color: lightblue;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #457B9D;
+  --nav-hover-background-color: steelblue;
 }
-
-
-/*  Look around below...but DON'T CHANGE ANYTHING! */
-
 body {
   max-width: 1200px;
   margin: 0 auto;
@@ -68,7 +62,6 @@ header {
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
-
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
@@ -87,7 +80,13 @@ p {
   width: 25%;
   height: 3em;
 }
-
+.logo-image img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
 .primary {
   background-color: var(--primary-color);
 }
